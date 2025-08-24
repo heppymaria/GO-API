@@ -47,4 +47,5 @@ func GetUserByID(c *fiber.Ctx) error {
 	}
 
 	return c.JSON(user)
+	//test
 }
